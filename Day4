@@ -1,0 +1,20 @@
+public class Main{
+    public static void main(String args[])
+    {
+        vote(121,"ravi");
+    }
+    public static void vote(int a, String str)//method to find a person elligible to vote
+    {
+        if(a<18)
+        {
+            System.out.printf(str + ",you are under 18 not eligible");
+        }
+        else if(a>=18 && a<=120){
+            System.out.printf(str + ",you are eligible");
+        }
+        else{
+            
+            System.out.printf("error try again");
+        }
+    }
+}
