@@ -1,0 +1,17 @@
+class Day6{
+    int age;
+    String name;
+  
+Day6(String name,int age){
+
+  this.name = name;
+  this.age = age;}
+      
+
+  public static void main(String args[])
+    {  
+       String name;
+       int age;
+       Day6 details = new Day6("rabi",66);
+       System.out.println(details.name + details.age);
+       }
