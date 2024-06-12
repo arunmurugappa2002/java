@@ -1,0 +1,26 @@
+class A {
+    
+     public static void wish()
+    {
+     System.out.println("hello Guys!"); 
+     }
+     public static void you()
+    {
+
+     System.out.println("how are you");
+}
+}
+
+class B extends  A{
+    public static void vote()
+     {
+       System.out.println("You are eligible");
+}
+}
+public class Day7{
+    public static void main(String args[])
+{
+    B details = new B();
+    details.vote();
+}
+}
